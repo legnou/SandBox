@@ -6,7 +6,13 @@
       "use": "@now/static-build",
       "config": {
         "maxLambdaSize": "50mb"
+      },
+      "env": {
+        "NODE_ENV": "production"
       }
     }
-  ]
+  ],
+  "env": {
+    "NODE_ENV": "production"
+  }
 }
